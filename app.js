@@ -38,7 +38,7 @@ Blog.find({}, function(err, blog){
   } else{
     console.log(blog);
   }
-})
+});
 
 app.get('/', function(req, res){
   res.render('blogs')
