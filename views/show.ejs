@@ -1,0 +1,28 @@
+<%- include('header') -%>
+
+<div class="ui main text container segment">
+  <div class="ui unstackable items">
+    <div class="item">
+      <div class="centered image">
+        <img src="<%=singleBlog.image%>">
+      </div>
+      <div class="content">
+        <a class="header" href="/blogs/<%=singleBlog._id%>"><%=singleBlog.title%></a>
+        <div class="meta">
+          <span><%=singleBlog.created%></span>
+        </div>
+        <div class="content">
+          <p><%=singleBlog.body%> </p>
+        </div>
+        <a href="/blogs/<%=singleBlog._id%>/edit"><button class="ui yellow basic button">Edit</button></a>
+        <form class="" action="/blogs/<%=singleBlog._id%>?_method=delete" method="post">
+          <button class="ui red basic button">Delete</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<%- include('footer') -%>
