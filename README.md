@@ -2,9 +2,9 @@
 
 This Project is very close to me. As I have used some new libraries to work on. 
 
-Most importantly *Schematic.ui* for awsome front-end UI and backend has enviroment dependencies icluded in the package.
+Most importantly *Schematic.ui* for awsome front-end UI and backend has enviroment dependencies included in the package.
 
-Such as: 
+##Such as: 
 
 1. Express.js
 
