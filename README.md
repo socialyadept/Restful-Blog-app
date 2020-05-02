@@ -15,6 +15,3 @@ Most importantly *Schematic.ui* for awsome front-end UI and backend has envirome
 4. Mongoose
 
 The system uses *mongodb* as database in the project. Looking forward that you guys have a glance over it as well. Cheers!
-
-
-
