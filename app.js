@@ -19,17 +19,17 @@ var blogSchema = new mongoose.Schema({
 
 var Blog = new mongoose.model('Blog', blogSchema);
 
-Blog.create({
-  title: "Test Blog",
-  image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80',
-  body: "Hello this is a default post!"
-}, function(err, Blog){
-  if (err){
-    console.log("opps unexpected error occured while creating the blog");
-  } else {
-    console.log("blog created successfully");
-  }
-});
+// Blog.create({
+//   title: "Test Blog",
+//   image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80',
+//   body: "Hello this is a default post!"
+// }, function(err, Blog){
+//   if (err){
+//     console.log("opps unexpected error occured while creating the blog");
+//   } else {
+//     console.log("blog created successfully");
+//   }
+// });
 
 Blog.find({}, function(err, blog){
   if(err)
